@@ -5,7 +5,7 @@ export default function Homepage() {
   return (
     <div>
       <Navbar />
-      <h1 className="text-3xl font-bold underline">Home</h1>
+      <h1 className="text-3xl font-bold">Home</h1>
       <Link to="/app">Book a room now</Link>
     </div>
   )
